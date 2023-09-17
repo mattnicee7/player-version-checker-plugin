@@ -19,11 +19,15 @@ If you wish to build the plugin from source, follow these steps:
 2. Navigate to the project directory.
 3. Run the following command to build the plugin using Gradle:
 ```gradle
-build gradle
+./gradlew build
 ```
 4. Upon successful build, the compiled `.jar` file can be found in the `build/libs` directory.
 
 **Note**: This project does not use the `shadowJar` plugin, so a standard Gradle build is sufficient.
+
+## Dependencies
+
+This plugin requires ViaVersion & Floodgate plugins to work.
 
 ## Installation
 

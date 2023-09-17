@@ -11,13 +11,6 @@ The Player Version Checker Plugin is designed for Minecraft servers to ensure th
 - **User Control**: Players have the option to dismiss the alert messages if they choose not to update immediately.
 - **Customizable Messages**: Server administrators can customize the alert messages through the plugin's configuration.
 
-## Installation
-
-1. First, build the project from source (see the "Build" section for instructions).
-2. Once built, place the compiled `.jar` file into your server's `plugins` directory.
-3. Restart your server.
-4. Configure the plugin as needed by editing the generated configuration file.
-
 ## Build
 
 If you wish to build the plugin from source, follow these steps:
@@ -32,10 +25,27 @@ build gradle
 
 **Note**: This project does not use the `shadowJar` plugin, so a standard Gradle build is sufficient.
 
+## Installation
+
+1. First, build the project from source (see the "Build" section for instructions).
+2. Once built, place the compiled `.jar` file into your server's `plugins` directory.
+3. Restart your server.
+4. Configure the plugin as needed by editing the generated configuration file.
+
+## Recommended Versions
+
+For optimal performance and compatibility, it's recommended to use the following versions:
+
+- **Java**: Version 11
+- **Minecraft Server**: 1.19 or newer
+- **Gradle**: Latest stable release
+
+Ensure that your server and development environment align with these recommendations to avoid potential issues.
+
 ## Usage
 
 Players with outdated clients will automatically receive alert messages upon connecting to the server. They can choose to update their client or click on the provided message to dismiss the alerts.
 
 ## Support
 
-For any issues, questions, or feature requests, please refer to the plugin's GitHub repository or contact the plugin's developer.
+For any issues, suggestions, or bugs, please open an issue/pull request.

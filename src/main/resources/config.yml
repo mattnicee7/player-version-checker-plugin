@@ -1,0 +1,37 @@
+# Delay (in ticks) between each execution of the checker task. 20 ticks = 1 second.
+checker-task-delay: 100
+
+# Height (Y-coordinate) above which players won't receive void layer alerts.
+check-above-layer: 5
+
+alert-version:
+  # List of protocol versions for which the version alert should be shown.
+  allowed-protocols:
+    - '760'
+  # Title of the alert for outdated clients.
+  title: '&4&lOUTDATED CLIENT<nl>&cMore information in chat!'
+  # Messages displayed to the player when they are using an outdated version.
+  message:
+    - '&4&lWARNING - &eYou are using an outdated version'
+    - '&eThis may affect your gameplay, please update'
+    - '&eyour game for a better gaming experience!'
+    - ''
+    - '&fClick here to confirm viewing the warning'
+  # Message displayed when a player confirms viewing the warning.
+  confirm-message: '&aYou have confirmed viewing the warning.'
+
+alert-layer-void:
+  # List of protocol versions for which the layer void alert should be shown.
+  allowed-protocols:
+    '760'
+  # Title of the alert for clients that don't support certain layers.
+  title: '&4&lOUTDATED CLIENT<nl>&cMore information in chat!'
+  # Messages displayed to the player when their client doesn't support certain layers.
+  message:
+    - '&4&lWARNING - &eYou are using an outdated version'
+    - '&eBe careful, your version does not support certain layers'
+    - '&eUpdate your game, or confirm below to disable the alert!'
+    - ''
+    - '&fClick here to confirm viewing the warning'
+  # Message displayed when a player confirms viewing the warning.
+  confirm-message: '&aYou have confirmed viewing the warning.'

@@ -1,0 +1,11 @@
+name: PlayerVersionCheckerPlugin
+version: '${version}'
+main: com.github.mattnicee7.playerversioncheckerplugin.PlayerVersionCheckerPlugin
+api-version: '1.19'
+authors: [ mattnicee7 ]
+website: https://www.github.com/mattnicee7
+depend: [ViaVersion, floodgate]
+commands:
+  versioncheckconfirm:
+  versionchecklayerconfirm:
+

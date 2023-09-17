@@ -42,7 +42,7 @@ For optimal performance and compatibility, it's recommended to use the following
 
 - **Java**: Version 11
 - **Minecraft Server**: 1.19 or newer
-- **Gradle**: Latest stable release
+- **Gradle**: 8.1.1
 
 Ensure that your server and development environment align with these recommendations to avoid potential issues.
 
